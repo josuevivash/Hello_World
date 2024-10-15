@@ -30,14 +30,7 @@
         </div>
 
     </section>
-
-    <script src="script.ts"></script>
-<script type="module"></script>
-    import { serve } from "https://deno.land/std@0.114.0/http/server.ts";
-    import { readFileStr } from "https://deno.land/std@0.114.0/fs/mod.ts";
-
-    const fileContent = await readFileStr("script.ts");
-    eval(fileContent);
+    <script src="script.js"></script>
 </script>
 </body>
 </html>
